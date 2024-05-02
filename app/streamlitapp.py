@@ -1,4 +1,5 @@
 # Import all of the dependencies
+import time
 import streamlit as st
 import os 
 import imageio 
@@ -29,7 +30,7 @@ if selected_video in options:
         
         # Convert the video to a format that can be displayed in the app
         os.system(f'ffmpeg -i {file_path} -vcodec libx264 test_video.mp4 -y')
-        sleep(5)
+        time.sleep(5)
         # Display the video in the app
         video = open(os.path.join('.', 'app', 'test_video.mp4'), 'rb') 
         video_bytes = video.read() 
