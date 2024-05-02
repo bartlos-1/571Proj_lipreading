@@ -15,7 +15,7 @@ st.markdown('### CPSC 571 Project')
 # Generating a list of options or videos 
 options = os.listdir(os.path.join('.', 'data', 's1'))
 selected_video = st.selectbox('Choose video', options, index=None, placeholder="Select video...")
-
+print(selected_video)
 
 
 # Check if the selected video is in the list of options
