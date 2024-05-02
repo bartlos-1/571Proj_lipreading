@@ -4,7 +4,7 @@
 ## STREAMLIT APP LINK WHERE YOU CAN TRY IT:
 ### https://lingoread.streamlit.app/
 
-## TO RUN VIA VS CODE:
+## TO RUN ON YOUR OWN:
 ### In order to run the code the following dependencies of these exact versions are needed:
 
 * tensorflow                    2.15.1
