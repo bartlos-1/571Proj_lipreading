@@ -15,7 +15,7 @@ st.markdown('### CPSC 571 Project')
 # Generating a list of options or videos 
 options = os.listdir(os.path.join('.', 'data', 's1'))
 selected_video = st.selectbox('Choose video', options, index=None, placeholder="Select video...")
-print(selected_video)
+st.text(selected_video)
 
 
 # Check if the selected video is in the list of options
@@ -25,6 +25,7 @@ if selected_video in options:
     with st.container(border =1): 
         # Construct the file path of the selected video
         file_path = os.path.join('.','data','s1', selected_video)
+        st.text(file_path)
         
         # Convert the video to a format that can be displayed in the app
         os.system(f'ffmpeg -i {file_path} -vcodec libx264 test_video.mp4 -y')
