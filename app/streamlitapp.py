@@ -32,7 +32,7 @@ if selected_video in options:
         os.system(f'ffmpeg -i {file_path} -vcodec libx264 test_video.mp4 -y')
         time.sleep(5)
         # Display the video in the app
-        video = open(os.path.join('.', 'app', 'test_video.mp4'), 'rb') 
+        video = open('test_video.mp4', 'rb') 
         video_bytes = video.read() 
         st.video(video_bytes)
         
