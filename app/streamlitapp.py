@@ -24,7 +24,7 @@ if selected_video in options:
     # Rendering the video 
     with st.container(border =1): 
         # Construct the file path of the selected video
-        file_path = os.path.join('..','data','s1', selected_video)
+        file_path = os.path.join('.','data','s1', selected_video)
         
         # Convert the video to a format that can be displayed in the app
         os.system(f'ffmpeg -i {file_path} -vcodec libx264 test_video.mp4 -y')
