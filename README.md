@@ -4,6 +4,9 @@
 ## STREAMLIT APP LINK WHERE YOU CAN TRY IT:
 ### https://lingoread.streamlit.app/
 
+## RESEARCH PAPER LINK:
+### https://lingopaper.tiiny.site/
+
 ## TO RUN ON YOUR OWN:
 ### In order to run the code the following dependencies of these exact versions are needed:
 
