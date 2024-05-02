@@ -20,12 +20,11 @@
 #### In both google collab and in the app code:
 
 ##### In load.data() function uncomment the line:
-`file_name = path.split('\\')[-1].split('.')[0]`
-And put in comments the line:
+`#file_name = path.split('\\')[-1].split('.')[0]`
+#### And put in comments the line:
 `file_name = path.split('/')[-1].split('.')[0]`
 
 ### TO RUN THE APP:
 
 Run the following line of the code in terminal when in ‘app’ folder of the project:
-
-streamlit run streamlitapp.py
+`streamlit run streamlitapp.py`
