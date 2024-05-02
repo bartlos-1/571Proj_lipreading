@@ -26,5 +26,5 @@
 
 ### TO RUN THE APP:
 
-Run the following line of the code in terminal when in ‘app’ folder of the project:
+#### Run the following line of the code in terminal when in ‘app’ folder of the project:
 `streamlit run streamlitapp.py`
